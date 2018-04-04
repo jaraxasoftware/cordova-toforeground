@@ -1,0 +1,26 @@
+{
+  "name": "cordova-toforeground",
+  "version": "1.0.0",
+  "author": "Morgan Redshaw",
+  "license": "Apache 2.0",  
+  "description": "A plugin for codova, which will allow the app to bring itself, or other app activites, to the foreground.",
+  "cordova": {
+    "id": "com.jaraxa.toforeground",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaraxasoftware/cordova-toforeground.git"
+  },
+  "keywords": [
+    "android",
+    "background",
+    "to foreground"
+  ],
+  "bugs": {
+    "url": "https://github.com/jaraxasoftware/cordova-toforeground/issues"
+  },
+  "homepage": "https://github.com/jaraxasoftware/cordova-toforeground#readme"
+}

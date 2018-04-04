@@ -27,3 +27,7 @@ NOTE: This should only be the name of class, should not contain the package name
 <b>packageName</b>: Should be the name of the package that contains the mainClassName.
 
 <b>success/errorFunction</b>: The functions that will be called on error and success.
+
+Credits
+-----------------------------------------------------
+Forked from [this repo](https://github.com/Diusrex/cordova-toforeground) by [Diusrex](https://github.com/Diusrex)

@@ -17,7 +17,7 @@
        under the License.
 */
 
-package com.diusrex.toforeground;
+package com.jaraxasoftware.toforeground;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -42,7 +42,7 @@ public class ToForeground extends CordovaPlugin {
 
           Activity activity = this.cordova.getActivity();
           it.setComponent(new ComponentName(packageName, packageName + "." + className));
-	  it.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+          it.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
           Context context = activity.getApplicationContext();
           context.startActivity(it);
